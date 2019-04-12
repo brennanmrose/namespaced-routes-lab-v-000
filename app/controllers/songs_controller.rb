@@ -41,7 +41,7 @@ class SongsController < ApplicationController
       redirect_to @song
     else
       render :new
-    end
+    end 
   end
 
   def edit
